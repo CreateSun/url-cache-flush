@@ -1,4 +1,4 @@
-const fetchStatic = (chunkUrl) => {
+const flush = (chunkUrl) => {
   if (!chunkUrl) {
     return Promise.reject("Invalid URL");
   }
@@ -19,4 +19,4 @@ const fetchStatic = (chunkUrl) => {
 };
 
 
-module.exports = fetchStatic;
+module.exports = flush;
